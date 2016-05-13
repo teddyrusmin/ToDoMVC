@@ -1,8 +1,8 @@
 # ToDoMVC
 A demo of automation testing using Selenium Webdriver - Cucumber. Developed on Eclipse MARS2
 
-Assumption
-==========
+Assumptions
+===========
 - User needs to clear all the entries from the ToDoMVC website (http://gcloud-todos.appspot.com/examples/angularjs/#/), otherwise it will skewed the results.
 - User is assumed to be familiar with Eclipse IDE otherwise there are plenty of tutorial on the net.
 - Test environment is in controlled environment, a delay in the internet connection might skewed the results.
