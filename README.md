@@ -6,7 +6,7 @@ Assumption
 - User needs to clear all the entries from the ToDoMVC website (http://gcloud-todos.appspot.com/examples/angularjs/#/), otherwise it will skewed the results.
 - User is assumed to be familiar with Eclipse IDE otherwise there are plenty of tutorial on the net.
 - Test environment is in controlled environment, a delay in the internet connection might skewed the results.
-- Firefox browser, Eclipse and JDK is setup in the user computer. The project was build on Firefox 46.0.1, Eclipse MARS 2, JDK 8u91 and Win 8.1. If you are using different environment, you might need to tweak it first
+- Firefox browser, Eclipse and JDK is setup in the user computer. The project was build on Firefox 46.0.1, Eclipse MARS 2, JDK 8u91 and Win 8.1. If you are using a different environment, you might need to tweak it first
 - Please note that the only supported browser is Firefox
 
 Setup guide
