@@ -1,5 +1,12 @@
 # ToDoMVC
 A demo of automation testing using Selenium Webdriver - Cucumber. Developed on Eclipse MARS2
+For the following scenarios:
+  1. Add a new todo
+  2. Mark a todo as completed
+  3. Delete a todo
+  4. View only Active todos
+  5. View only Completed todos
+
 
 Assumptions
 ===========
