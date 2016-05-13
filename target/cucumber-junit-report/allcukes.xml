@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="62.6716">
+<testcase classname="Testing ToDoMVC" name="Add a new todo" time="22.601739">
+<system-out><![CDATA[Given I am on the ToDoMVC page..............................................passed
+When I add task1 onto todo list.............................................passed
+Then task1 should be displayed on the todo list.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing ToDoMVC" name="Mark a todo as completed" time="11.735463">
+<system-out><![CDATA[Given I am on the ToDoMVC page..............................................passed
+When I mark task1 as complete...............................................passed
+Then task1 should be ticked.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing ToDoMVC" name="Delete a todo" time="9.988588">
+<system-out><![CDATA[Given I am on the ToDoMVC page..............................................passed
+When I add task2 onto todo list.............................................passed
+And I add task3 onto todo list..............................................passed
+And I remove task2 list.....................................................passed
+Then task2 should not be on the list........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing ToDoMVC" name="View only Active todos" time="9.354312">
+<system-out><![CDATA[Given I am on the ToDoMVC page..............................................passed
+When I click on active link.................................................passed
+Then task3 should be displayed on the todo list.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing ToDoMVC" name="View only Completed todos" time="8.991498">
+<failure message="org.junit.ComparisonFailure: expected:&lt;[task1]&gt; but was:&lt;[Added Item at 13/05/2016 10:14]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at BDDTest.SeleniumTest.checkTaskOnPage(SeleniumTest.java:47)&#13;&#10;&#9;at BDDTest.StepDefs.task_should_be_displayed_on_the_todo_list(StepDefs.java:38)&#13;&#10;&#9;at ✽.Then task1 should be displayed on the todo list(featureFiles/test.feature:29)&#13;&#10;"><![CDATA[Given I am on the ToDoMVC page..............................................passed
+When I click on completed link..............................................passed
+Then task1 should be displayed on the todo list.............................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[task1]> but was:<[Added Item at 13/05/2016 10:14]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at BDDTest.SeleniumTest.checkTaskOnPage(SeleniumTest.java:47)
+	at BDDTest.StepDefs.task_should_be_displayed_on_the_todo_list(StepDefs.java:38)
+	at ✽.Then task1 should be displayed on the todo list(featureFiles/test.feature:29)
+]]></failure>
+</testcase>
+</testsuite>
